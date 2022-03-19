@@ -1,0 +1,316 @@
+.topnav{
+  overflow:hidden;
+  background-color:#333;
+  padding-bottom:9px;
+  padding-top: 9px;
+  text-align: center;
+  
+ 
+}
+.topnav a{
+text-align: right;
+  color: #f2f2f2;
+  text-decoration: navy;
+  font-size: 17px;
+ 
+  padding-bottom: 3px;
+  padding-right: 70px;
+  padding-left: 90px;
+  margin: auto;
+ 
+}
+.topnav a:hover{
+  background-color:cadetblue;
+  color: black;
+  padding-right: 100px;
+  padding-left: 100px;
+  text-align: center;
+  margin: 0px;
+
+}
+
+
+body{
+    background-color: gainsboro; 
+  
+  }
+
+   th, td{
+    color: black;
+    border: 1px solid sienna;
+    text-align: center;
+    padding: 2px;
+    font-size: 16px;
+  }  
+  caption{
+    color: sienna;
+    font-size: 17px;
+    font-style: bold;
+    padding-bottom: 2px;
+  }
+table{
+  float: right;
+}
+  p{
+    margin-top: 14px;
+    color: black;
+    text-align: right;
+    font-family: Arial;
+    font-style: italic;
+    font-size:17px;
+    border-width: medium;
+    border-color:  gray;
+  padding-left: 20px;
+
+  }
+
+  .bt{
+border: none;
+color:lightseagreen;
+background-color: lightblue;
+}
+
+h1 ,h2 , h3 , h4 , h5 ,h6 , #h9 ,#abt1 {
+
+color: brown;
+margin: 20px;
+font-size: 20px;
+background-color: gainsboro;
+border-right: 2px solid sienna;
+padding-right: 4px;
+
+}
+.vv .h7{
+  color:black;
+  font-size: 26px;
+  font-family: arial;
+  text-align: right;
+  margin: 10px;
+  padding-right: 20px;
+  padding-left: auto;
+  margin-bottom: 0px;
+  padding-top: 15px;
+}
+
+.h8{
+  background-color:white;
+  border: 2px solid grey;
+  padding-left: 10px;
+  padding-right: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 10px;
+  color: black;
+  
+}
+
+
+.headform{
+  padding-left : 20px;
+  padding-right: 12px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  color: brown;
+  font-size: 20px;
+  background-color: gainsboro;
+  border-right: 2px solid sienna;
+ 
+}
+
+/* ريلاتف تحريك العنصر نسبه لموقعه الاصلي حركته يمين 30 وتحت 10*/
+.box1{
+position: absolute;
+position: fixed;
+bottom:0px;
+right: 0px;
+height: 70px;
+width: 30px;
+}
+/*position ابغى العنصر ثابت بالصفحه استخدم fixed*/
+
+
+.contact{
+  background-color: #333;
+  margin-top:70px;
+  padding:25px 25px 25px 25px;
+}
+
+.contact a{
+  color:white;
+  text-align: center;
+  margin-right: 100px;
+  
+  
+}
+.reg{
+  padding: 10px;
+  margin-right: 200px;
+  width: 150px;;
+  font-size: 19px;
+  font-style: bold;
+  color:cadetblue;
+  border:2px solid grey
+}
+.regbutton{
+  width: 150px;
+  padding: 10px;
+  margin-right: 350px;
+  font-size: 20px;
+  font-family:arial;
+  text-align: center;
+  background-color: silver;
+  border:1px solid sienna;
+
+}
+
+ .regist {
+  background-color:white;
+  text-align: right;
+  height: fit-content;
+  width: fit-content;
+  padding-right: 150px;
+  padding-left: 120px;
+  margin: auto;
+border:1px solid cadetblue;
+}
+
+.background{
+  background-color:white;
+  text-align: right;
+  height: fit-content;
+margin: auto;
+border:1px solid cadetblue;
+padding-bottom: 50px;
+position: relative;
+padding-right: 20px;
+
+}
+
+
+label{
+  padding: 10px;
+  font-size: 15;
+  font-style: bold;
+}
+input{
+  margin-bottom : 10px;
+  padding: 5px;
+}
+
+img.pic2{
+  margin-right: 95px;
+  border:solid black;
+  width:200px;
+ height:200px;
+
+}
+img.pic1{
+  margin-right: 400px;
+height:130px;
+width:500px;
+
+}
+img.pic3{
+  margin-right: 300px;
+  width: 800px;
+  height: 400px;
+  
+}
+.video{
+  width:700px;
+   height:450;
+   
+}
+.homee
+{
+  background-color: white;
+}
+.slider img{
+  width: 300px;
+  height: 180px;
+}
+.slider{
+  width: 300px;
+  height: 200px;
+  margin:auto;
+  overflow: hidden;
+  border: 4px solid gray;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 0px;
+background-color: cadetblue;
+}
+.slider ul{
+  padding: 0px;
+  width:1500px;
+  list-style: none;
+  position: relative;
+  animation: sliding 10s ease-in-out infinite;
+  
+}
+.slider ul li{
+  padding-top: 0px;
+  float:right;
+  position: relative;
+
+}
+@keyframes sliding
+{
+  5%,10%{rigth:0}
+  15%,30%{right:-300px}
+  35%,50%{right:-600px}
+  55%,70%{right:-900px}
+  75%,90%{right:-1200px}
+}
+  
+.vv {
+  background-color: white;
+  border:1px solid gray;
+  height: fit-content;
+  width: fit-content;
+  text-align: right;
+ 
+  text-align: right;
+  margin: auto;
+}
+.v{
+  background-color:cadetblue;
+  border:2px solid gray;
+  width: 980px;
+  align-items: center;
+  margin:auto;
+  padding-bottom: 2px;
+}
+.im{
+  width: 400px;
+  height: 300px;
+  margin-right: 300px;
+  padding-bottom: 60px;
+}
+
+
+
+.about{
+  background-color: whitesmoke;
+  padding: 20px;
+  margin:  auto;
+ padding-left: 20px;
+ width: fit-content;
+ height: fit-content;
+
+ border: 1px solid cadetblue;
+}
+.about span {
+font-size: 20px;
+background-color: white;
+padding-right: 30px;
+}
+
+.about img{
+  margin-right:500px;
+  width: 300px;
+  height: 150px;
+
+}
